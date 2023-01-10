@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <title>Niche Market</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
 
                 <img style="margin-right: -69px;" src="./img/image.svg" alt="">
                 <span style="margin-right:27px ;">EN</span>
-
+                
                 <img style="margin-right: -69px;" src="./img/united-states-of-america 1.svg" alt="">
                 <span>USD</span>
 
@@ -44,23 +45,23 @@
         
     </div>
 
-    <div class="nav">
-        
-        <img class="logo" src="./img/Layer_1_1_.svg" >
-        
-        <div class="nav2">
-            <span style="color:red ;">Home</span>
-        <span>Pages</span>
-        <span>User Account</span>
-        <span>Vendor Account</span>
-        <span>Track My Orders</span>
-        <span>Documentation</span>
-
+    <section class="top-nav">
+        <div>
+            <img class="logo" src="./img/Layer_1_1_.svg" >
 
         </div>
-        
-    </div>
-
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./aboutus.html">Nosotros</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+          
+        </ul>
+    </section>
+   
     <div class="float">
         
         <div class="presentation">
@@ -73,7 +74,9 @@
                 <br>
                 <br>
                 
-                <button class="boton">Contáctanos</button>
+                <button class="boton">
+                    <a href="./contactanos.html">Contáctanos</a>
+                </button>
     
 
             </div>
@@ -266,9 +269,109 @@
         </h1>
 
     </div>
+
+    <div class="escribenos">
+
+        <div class="container-escribenos">
+                
+            <div class="col">
+                  <img src="./img/iconos/Telegram logo.svg" alt="">
+                </div>
+                <div class="col">
+                  <h2>Escríbenos tu correo para enviarte más información</h2>
+                </div>
+                <div class="col">
+                    <div class="input">
+                        <input type="text" class="form-control" placeholder="Inserta tu correo" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn" type="button" id="button-addon2">ENVIAR</button>
+                      </div>
+                </div>
+              
+        </div>
+
+    </div>
    
     <footer class="footer">
 
+        <div class="footer-meindi">
+
+            <div class="footer-meindi-content">
+
+                <img src="./img/Layer_1_1_.svg" alt="">
+                <br>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <div class="footer-about-us">
+
+            <div class="about-us">
+
+                <h1>About Us</h1>
+                <br>
+                <a href="./aboutus.html">Sobre Nosotros</a>
+                <br>
+                <br>
+                <p>Experiencia</p>
+                <br>
+                <p>Proyectos</p>
+                <br>
+                <p>Términos y Condiciones</p>
+                <br>
+                <p>Políticas de privacidad</p>
+
+
+            </div>
+
+        </div>
+
+        <div class="footer-custom-care">
+
+            <div class="customer-care">
+
+                <h1>Customer Care</h1>
+                <br>
+                <p>Preguntas frecuentes</p>
+                <br>
+                <a href="./contactanos.html">Contacto</a>
+                
+
+
+            </div>
+
+        </div>
+
+        <div class="footer-contact-us">
+
+            <div class="contact-us">
+
+                <h1>Contact Us</h1>
+                <br>
+                <p>APS Ecuador</p>
+                <br>
+                <p>The Point Building 15th floor, of.</p>
+                <br>
+                <p> 1511Puerto Santa Ana, Guayaquil
+                </p>
+                <br>
+                <p> +593 96 088 0402</p>
+                <br><br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-google"></a>
+
+
+            </div>
+
+        </div>
         
 
 
